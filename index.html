@@ -1,71 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Necton FC World Cup Predictor</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+
+        h1, .subtitle, .status, .updated, .footer {
+            text-align: center;
+        }
+
+        h1 {
+            color: #006400;
+        }
+
+        .subtitle {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .status {
+            color: #666;
+            margin-bottom: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+        }
+
+        th {
+            background: #006400;
+            color: white;
+            padding: 10px;
+        }
+
+        td {
+            padding: 9px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        tr:nth-child(even) {
+            background: #f9f9f9;
+        }
+
+        td:nth-child(1),
+        td:nth-child(3),
+        td:nth-child(4) {
+            text-align: center;
+        }
+
+        .updated {
+            margin-top: 20px;
+            color: #666;
+        }
+
+        .footer {
+            margin-top: 30px;
+            color: #666;
+            font-size: 12px;
+        }
+    </style>
+</head>
 <body>
 
 <h1>🏆 Necton FC World Cup Predictor</h1>
 
-<p style="text-align:center; font-size:18px;">League Table</p>
+<p class="subtitle">League Table</p>
 
-<p style="text-align:center; color:#666;">
-Updated after Round 1 Match 12 (R1M12)
-</p>
+<p class="status">Updated after Round 1 Match 12 (R1M12)</p>
 
 <table>
-<tr>
-    <th>Position</th>
-    <th>Name</th>
-    <th>Points</th>
-    <th>Exact Scores</th>
-</tr>
-
-<tr><td>1</td><td>Emma Drew</td><td>16</td><td>4</td></tr>
-<tr><td>2</td><td>Darren Heaton</td><td>14</td><td>3</td></tr>
-<tr><td>3</td><td>Becky Alderton-Macleod</td><td>13</td><td>3</td></tr>
-<tr><td>4</td><td>Peter Merry</td><td>13</td><td>3</td></tr>
-<tr><td>5</td><td>Liam Porter</td><td>11</td><td>2</td></tr>
-<tr><td>6</td><td>Rhys Pearce</td><td>11</td><td>2</td></tr>
-<tr><td>7</td><td>Patsy Combes</td><td>10</td><td>2</td></tr>
-<tr><td>8</td><td>Meg Combes</td><td>10</td><td>2</td></tr>
-<tr><td>9</td><td>RIA PARKER</td><td>10</td><td>2</td></tr>
-<tr><td>10</td><td>Laura Jane Emmerson</td><td>10</td><td>1</td></tr>
-<tr><td>11</td><td>Martin Pitt</td><td>9</td><td>2</td></tr>
-<tr><td>12</td><td>Tom Merry</td><td>9</td><td>2</td></tr>
-<tr><td>13</td><td>Taylor De Nobriga</td><td>9</td><td>1</td></tr>
-<tr><td>14</td><td>Jamie Morton-Gittens</td><td>8</td><td>2</td></tr>
-<tr><td>15</td><td>Natalie Crowe</td><td>8</td><td>1</td></tr>
-<tr><td>16</td><td>David Combes</td><td>8</td><td>1</td></tr>
-<tr><td>17</td><td>Hayley Jones</td><td>8</td><td>1</td></tr>
-<tr><td>18</td><td>Neil Perryman</td><td>8</td><td>1</td></tr>
-<tr><td>19</td><td>Stuart Thorne</td><td>8</td><td>1</td></tr>
-<tr><td>20</td><td>Paul Trett</td><td>8</td><td>1</td></tr>
-<tr><td>21</td><td>Louise Jackson</td><td>7</td><td>1</td></tr>
-<tr><td>22</td><td>Dan Combes</td><td>7</td><td>1</td></tr>
-<tr><td>23</td><td>Madyson De Nobriga</td><td>7</td><td>1</td></tr>
-<tr><td>24</td><td>James Emmerson</td><td>6</td><td>0</td></tr>
-<tr><td>25</td><td>Richard Moss-Norbury</td><td>6</td><td>0</td></tr>
-<tr><td>26</td><td>Daniel Williamson</td><td>6</td><td>0</td></tr>
-<tr><td>27</td><td>Daniel Crowe</td><td>6</td><td>0</td></tr>
-<tr><td>28</td><td>Will Welford</td><td>6</td><td>0</td></tr>
-<tr><td>29</td><td>Tanya Pitt</td><td>5</td><td>1</td></tr>
-<tr><td>30</td><td>Kyle Wilton</td><td>5</td><td>0</td></tr>
-<tr><td>31</td><td>Ryan De Nobriga</td><td>5</td><td>0</td></tr>
-<tr><td>32</td><td>Maddie Emmerson</td><td>4</td><td>0</td></tr>
-<tr><td>33</td><td>Julie Combes</td><td>4</td><td>0</td></tr>
-<tr><td>34</td><td>Paul Morton</td><td>4</td><td>0</td></tr>
-<tr><td>35</td><td>Brandon Pitt</td><td>4</td><td>0</td></tr>
-<tr><td>36</td><td>Mike Rowles</td><td>3</td><td>0</td></tr>
-<tr><td>37</td><td>Amanda Wright</td><td>3</td><td>0</td></tr>
-<tr><td>38</td><td>Emma Morton</td><td>3</td><td>0</td></tr>
-
+<!-- keep your table rows here -->
 </table>
 
-<div class="updated">
-Last Updated: 15 June 2026
-</div>
+<div class="updated">Last Updated: 15 June 2026</div>
 
-<hr style="margin-top:30px;">
-
-<div style="text-align:center; color:#666; font-size:12px;">
-Necton FC World Cup Predictor<br>
-Powered by Necton FC &amp; C J Rust
+<div class="footer">
+    Necton FC World Cup Predictor<br>
+    Powered by Necton FC &amp; C J Rust
 </div>
 
 </body>
+</html>
